@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our New Home — 3D Apartment Tour</title>
+  <meta name="description" content="Explore our apartment in 3D, compare two layouts, and take a room-by-room tour.">
+  <script>
+    const tour = new URL('./Home%203D%20Tour.dc.html', window.location.href);
+    tour.search = window.location.search;
+    tour.hash = window.location.hash;
+    window.location.replace(tour.href);
+  </script>
+</head>
+<body>
+  <h1>Our new home</h1>
+  <p><a href="./Home%203D%20Tour.dc.html">Open the 3D tour and compare both layouts</a></p>
+  <p><a href="./Home%203D%20Tour%20-%20Layout%201%20backup.dc.html">Open the original Layout 1 tour</a></p>
+  <noscript><p>Enable JavaScript to use the interactive 3D tour.</p></noscript>
+</body>
+</html>
